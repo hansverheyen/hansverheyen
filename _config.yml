@@ -29,6 +29,16 @@ url: "https://hansverheyen.github.io" # the base hostname & protocol for your si
 twitter_username: jekyllrb
 github_username:  jekyll
 
+
+imagesurl: /hansverheyen/img/
+
+collections:
+    portfolio: 
+
+
+
+
+
 # Build settings
 -plugins:
   - jekyll-feed
