@@ -21,7 +21,7 @@
 title: Hans Verheyen
 email: your-email@example.com
 description: Hans Verheyen Grafisch Ontwerp
-baseurl: "/hansverheyen" # the subpath of your site, e.g. /blog
+baseurl: "/hansverheyen/" # the subpath of your site, e.g. /blog
 url: "https://hansverheyen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll

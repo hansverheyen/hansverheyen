@@ -2,9 +2,9 @@
 title: One Frame Movement <br> Record cover, 2019
 layout: default
 image_path: 
-    - image:  /assets/img/ofm-2.png
-    - image: /assets/img/ss3.png
-    - image: /assets/img/ss1.png
+    - image:  assets/img/ofm-2.png
+    - image: assets/img/ss3.png
+    - image: assets/img/ss1.png
 
 
 ---

@@ -1,7 +1,13 @@
+/* Master Styles */
 body {
     background-color:rgb(221,221,221);
+    margin: 0;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 
 img {
@@ -9,34 +15,45 @@ img {
     float: right;
   }
 
-rect.stroke-red {
-    stroke: red;
-    stroke-width: 5;
-    fill: none;
-  }
-  
-rect.stroke-green {
-    stroke: green;
-    stroke-dasharray: 10,25; 
-    stroke-width: 5;
-    fill: none;
-  }
+
 
 .title {
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      padding-left: 20px;
   }
 
+/* Nav Styles */
 .nav-wrapper {
       display: flex;
       justify-content: space-between;
-      padding: 36px;
+      padding: 30px;
   }
 
+.left-side {
+    display: flex;
+}
 .right-side {
     display: flex;
 }
-.nav-wrapper > .right-side  {
-    margin-left: 200px;
+.nav-wrapper > .right-side > div {
+    margin-right: 20px;
     font-size: 1em;
+}
+.nav-wrapper > .left-side > div {
+    margin-left: 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.nav-link-wrapper {
+    height:22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom;
+}
+.nav-link-wrapper a {
+    color: orangered;
+    text-decoration: none;
+    transition: color;
+}
+.nav-link-wrapper a:hover {
+    color: orangered;
+    border-bottom: 2px solid blue;
 }
