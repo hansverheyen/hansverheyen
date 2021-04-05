@@ -2,10 +2,23 @@
 layout: default
 ---
 
-<h1>sss</h1>
 
-{% include my-gallery.html folder="img" project ='ofm' %}
-{% include my-gallery.html folder="img" project ='ss' %}
+
+<h2></h2>
+
+
+    {% for project in site.portfolio %}
+        
+        <h2>{{project.title}}</h2>
+        <p>{{project.content}}</p>
+        <a href="{{site.baseurl}}/portfolio/{{project.slug}}">View Full Project</a>
+       
+        {% for image in project.image_path %}
+      <li><img src="{{site.baseurl}}{{ image.image }}" alt="{{ image.title}}"/></li>
+      {% endfor %}
+        
+    {% endfor %}
+  </ul>
+{% include my-gallery.html folder="img" project ='#ofm' %}
 
 <h1>collectie</h1>
-
