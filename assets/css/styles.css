@@ -1,0 +1,42 @@
+body {
+    background-color:rgb(221,221,221);
+}
+
+
+
+img {
+    display: block;
+    float: right;
+  }
+
+rect.stroke-red {
+    stroke: red;
+    stroke-width: 5;
+    fill: none;
+  }
+  
+rect.stroke-green {
+    stroke: green;
+    stroke-dasharray: 10,25; 
+    stroke-width: 5;
+    fill: none;
+  }
+
+.title {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding-left: 20px;
+  }
+
+.nav-wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding: 36px;
+  }
+
+.right-side {
+    display: flex;
+}
+.nav-wrapper > .right-side  {
+    margin-left: 200px;
+    font-size: 1em;
+}

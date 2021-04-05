@@ -5,12 +5,18 @@ layout: default
 
 
 <h2></h2>
+<svg height="210" width="500">
+    <line x1="0" y1="0" x2="200" y2="0" style="stroke:rgb(255,0,0);stroke-width:4" />
+    Sorry, your browser does not support inline SVG.
+  </svg>
 
 
     {% for project in site.portfolio %}
-        
-        <h2>{{project.title}}</h2>
-        <p>{{project.content}}</p>
+        <div class="title">
+            <h2>{{project.title}}</h2>
+            
+            <p>{{project.content}}</p>
+        </div>  
         <a href="{{site.baseurl}}/portfolio/{{project.slug}}">View Full Project</a>
        
         {% for image in project.image_path %}
