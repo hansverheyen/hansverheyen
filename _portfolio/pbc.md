@@ -1,0 +1,14 @@
+---
+title: Profile, Bubble, Cloud 
+class: pbc
+keywords: Book, 2019
+image_path: 
+    - img: assets/img/pbc-1.jpg
+    
+
+---
+Profile, Bubble, Cloud is a three-part animation about distortion in the online world, specifically issues surrounding the manipulation of information.
+
+What if we look at data as a way to build a reality? As a substance that distorts your identity? This idea is explored through narrative and digitally created environments and animations. Three chapters, each showing a different viewpoint with a short story narrated by captions.
+
+Profile as the distortion that occurs in the way an online identity is perceived, Bubble as the isolating personal experience and Cloud as a digital dump full of automatic generated nonsense and absurd fragments.

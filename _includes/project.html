@@ -1,0 +1,19 @@
+<div class="project-linkerkant">
+    <div class="title">
+        <h2>{{project.title}}</h2>
+    </div>
+    <div class="beschrijving"> 
+        <p>{{project.content}}</p>
+    </div>  
+
+    <a href="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
+</div>
+    <div class="project-img">
+       
+    {% for image in project.image_path %}
+        <div class="{{project.class}}">
+        <img src="{{site.baseurl}}{{ image.img }}" class="{{ image.class }}" alt="{{ image.title}}"/>
+        </div>
+    {% endfor %}
+    </div>  
+</div>

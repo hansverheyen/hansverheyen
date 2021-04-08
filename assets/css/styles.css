@@ -1,4 +1,4 @@
-/* Master Styles */
+/* Common Styles */
 body {
     background-color:rgb(221,221,221);
     margin: 0;
@@ -10,31 +10,62 @@ body {
 }
 
 
-img {
-    display: block;
-    float: right;
-  }
+/* Project Styles */
+
+.project-wrapper {
+    /* background-color: red; */
+    /* width: 100%; */
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
 
 
-
+.project-linkerkant {
+    max-width: 80%; 
+}
+.ofm {
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+}
+.ofm > * {
+    flex: 1 1 500px;
+    padding: 0px 10px 10px 0px;
+}
+.ofm img {
+    /* height: 100%; */
+    width: 100%;
+}
+.project-img {
+   
+}
 .title {
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+      color: dodgerblue;
+  }
+  .beschrijving {
+      font-family: georgia, Helvetica, sans-serif;
   }
 
 /* Nav Styles */
 .nav-wrapper {
       display: flex;
       justify-content: space-between;
-      padding: 30px;
+      padding: 20px;
   }
 
 .left-side {
-    display: flex;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
 }
 .right-side {
     display: flex;
 }
-.nav-wrapper > .right-side > div {
+.nav-link-wrapper-insta {
     margin-right: 20px;
     font-size: 1em;
 }
@@ -48,12 +79,12 @@ img {
     border-bottom: 1px solid transparent;
     transition: border-bottom;
 }
-.nav-link-wrapper a {
-    color: orangered;
+.nav-wrapper a {
+    color: dodgerblue;
     text-decoration: none;
     transition: color;
 }
-.nav-link-wrapper a:hover {
-    color: orangered;
-    border-bottom: 2px solid blue;
+.nav-wrapper a:hover {
+    color: dodgerblue;
+    border-bottom: 2px solid orangered;
 }

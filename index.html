@@ -5,26 +5,62 @@ layout: default
 
 
 <h2></h2>
-<svg height="210" width="500">
-    <line x1="0" y1="0" x2="200" y2="0" style="stroke:rgb(255,0,0);stroke-width:4" />
+<svg height="10" width="100%">
+    <line x1="0" y1="0" x2="100%" y2="0" style="stroke:rgb(255,0,0);stroke-width:4px" />
     Sorry, your browser does not support inline SVG.
   </svg>
 
 
-    {% for project in site.portfolio %}
-        <div class="title">
-            <h2>{{project.title}}</h2>
-            
-            <p>{{project.content}}</p>
-        </div>  
-        <a href="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
-       
-        {% for image in project.image_path %}
-      <li><img src="{{site.baseurl}}{{ image.image }}" alt="{{ image.title}}"/></li>
-      {% endfor %}
+   
+        <div class="project-wrapper">
+            {% for project in site.portfolio %}
+            {% if project.class =='ofm' %}
+            <div class="project-linkerkant">
+                <div class="title">
+                    <h2>{{project.title}}</h2>
+                </div>
+                <div class="beschrijving"> 
+                    <p>{{project.content}}</p>
+                </div>  
         
+                <a href="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
+            </div>
+                <div class="project-img">
+                    {% endif %}
+                    {% endfor %}
+                    <div class="ofm">
+                        <div class="pic"><img src="{{site.baseurl}}/assets/img/ofm-1.jpg"  alt=""></div>
+                        <div class="pic"><img src="{{site.baseurl}}/assets/img/ofm-2.png"  alt=""></div>
+                        <div class="pic"><img src="{{site.baseurl}}/assets/img/ofm-3.png"  alt="">   </div>
+                    </div>
+                </div>  
+            
+        </div>
+
+        {% for project in site.portfolio %}
+         {% if project.class =='pbc' %}
+        <div class="project-wrapper">
+            <div class="project-linkerkant">
+                <div class="title">
+                    <h2>{{project.title}}</h2>
+                </div>
+                <div class="beschrijving"> 
+                    <p>{{project.content}}</p>
+                </div>  
+        
+                <a href="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
+            </div>
+                <div class="project-img">
+                   
+                {% for image in project.image_path %}
+                <div class="{{project.class}}">
+                    <img src="{{site.baseurl}}{{ image.img }}" class="{{ image.class }}" alt="{{ image.title}}"/>
+                    </div>
+                {% endfor %}
+                </div>  
+        </div>
+        {% endif %}
     {% endfor %}
   </ul>
-{% include my-gallery.html folder="img" project ='#ofm' %}
+<!-- {% include my-gallery.html folder="img" project ='ofm' %} -->
 
-<h1>collectie</h1>

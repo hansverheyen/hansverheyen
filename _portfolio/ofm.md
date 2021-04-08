@@ -1,10 +1,11 @@
 ---
-title: One Frame Movement <br> Record cover, 2019
-layout: default
+title: One Frame Movement
+keywords: Record cover, 2019
+class: ofm
 image_path: 
-    - image:  assets/img/ofm-2.png
-    - image: assets/img/ss3.png
-    - image: assets/img/ss1.png
+    - img: assets/img/ofm-1.jpg
+    - img: assets/img/ofm-2.png
+    - img: assets/img/ofm-3.png
 
 
 ---
