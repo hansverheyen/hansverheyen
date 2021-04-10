@@ -1,9 +1,10 @@
 ---
 title: Profile, Bubble, Cloud 
 class: pbc
-keywords: Book, 2019
-image_path: 
-    - img: assets/img/pbc-1.jpg
+keywords: video, digital animation, 2019, MA Graduate Project – St Lucas Antwerp
+img1: assets/img/pbc/pbc-1.jpg
+img2: assets/img/pbc/pbc-2.png
+img3: assets/img/pbc/pbc-3.jpg
     
 
 ---

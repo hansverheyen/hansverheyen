@@ -2,8 +2,7 @@
 title: Wilde Koffie
 keywords: Identity, 2019
 class: wk
-image_path:
-    - img: img/shirt.png
+img1: img/shirt.png
 
 
 ---

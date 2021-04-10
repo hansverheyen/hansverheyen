@@ -2,11 +2,9 @@
 title: One Frame Movement
 keywords: Record cover, 2019
 class: ofm
-image_path: 
-    - img: assets/img/ofm-1.jpg
-    - img: assets/img/ofm-2.png
-    - img: assets/img/ofm-3.png
-
+img1: assets/img/ofm-1.jpg
+img2: assets/img/ofm-2.png
+img3: assets/img/ofm-3.png
 
 ---
 

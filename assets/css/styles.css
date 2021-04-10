@@ -15,16 +15,23 @@ body {
 .project-wrapper {
     /* background-color: red; */
     /* width: 100%; */
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    padding: 40px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: 1fr 2fr; */
+}
+.project-wrapper > .project-linkerkant {
+    flex: 1 1 25%;
+    min-width: 35ch;
+    padding-right: 75px;
+ 
+    max-width: 75ch;
+}
+.project-wrapper > * {
+    flex: 1 1 60%;
 }
 
-
-.project-linkerkant {
-    max-width: 80%; 
-}
-.ofm {
+.ofm, .pbc {
     max-width: 1500px;
     display: flex;
     flex-wrap: wrap;
@@ -39,31 +46,59 @@ body {
     /* height: 100%; */
     width: 100%;
 }
-.project-img {
-   
+.pbc > * {
+    flex: 1 1 500px;
+    padding: 0px 10px 10px 0px;
 }
+.pbc img {
+    width: 100%;
+}
+
 .title {
     font-family:  Helvetica, sans-serif;
     font-weight: bold;
-      color: dodgerblue;
+      color: black;
   }
   .beschrijving {
       font-family: georgia, Helvetica, sans-serif;
+      padding-bottom: 20px;
   }
+  .beschrijving a {
+    color: black;
+    text-decoration: underline;
+    transition: color;
+}
+.beschrijving a:hover {
+    color:salmon;
+    border-bottom: 0px solid black;
+}
 
 /* Nav Styles */
 .nav-wrapper {
       display: flex;
       justify-content: space-between;
       padding: 20px;
+ 
+        position: fixed;
+         
+        right: 0;
+         
+        left: 0;
+         
+        z-index: 999;
+        
+
+
   }
 
 .left-side {
     font-family:  Helvetica, sans-serif;
     font-weight: bold;
+    
 }
 .right-side {
     display: flex;
+    
 }
 .nav-link-wrapper-insta {
     margin-right: 20px;
@@ -74,17 +109,15 @@ body {
     font-size: 1em;
     text-transform: uppercase;
 }
+
 .nav-link-wrapper {
-    height:22px;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom;
+   
 }
 .nav-wrapper a {
-    color: dodgerblue;
     text-decoration: none;
-    transition: color;
+    
 }
 .nav-wrapper a:hover {
-    color: dodgerblue;
-    border-bottom: 2px solid orangered;
+    /* color: crimson; */
+    border-bottom: 0px solid black;
 }
