@@ -15,7 +15,7 @@ body {
 .project-wrapper {
     /* background-color: red; */
     /* width: 100%; */
-    padding: 40px 20px 20px 20px;
+    padding: 40px 20px 20px 40px;
     display: flex;
     flex-wrap: wrap;
     /* grid-template-columns: 1fr 2fr; */
@@ -69,7 +69,7 @@ body {
     transition: color;
 }
 .beschrijving a:hover {
-    color:salmon;
+    /* color:salmon; */
     border-bottom: 0px solid black;
 }
 
@@ -80,7 +80,7 @@ body {
       padding: 20px;
  
        
-        mix-blend-mode: difference;
+        /* mix-blend-mode: difference; */
 
 
   }
@@ -94,19 +94,19 @@ body {
 .right-side {
     display: flex;
     font-size: 1.5em;
-    color: lightskyblue;
+    color: black;
 
     
 }
 .nav-link-wrapper-insta {
-    margin-right: 20px;
-    font-family:  Helvetica, sans-serif;
-    font-weight: bold;
+    margin-right: 10px;
+    /* font-family:  Helvetica, sans-serif;
+    font-weight: bold; */
     
 }
 .nav-wrapper > .left-side > div {
     margin-left: 20px;
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: uppercase;
     
     
@@ -120,13 +120,12 @@ body {
 .nav-wrapper a {
     text-decoration: none;
     color:azure;
-    text-transform: uppercase;
     
    
 
     
 }
 .nav-wrapper a:hover {
-    color: black;
+    /* color: black; */
     border-bottom: 0px solid black;
 }
