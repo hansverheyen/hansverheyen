@@ -133,6 +133,6 @@ body {
     
 }
 .nav-wrapper a:hover {
-    color: blue;
+    color: black;
     border-bottom: 0px solid black;
 }
