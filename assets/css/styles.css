@@ -86,7 +86,7 @@ body {
         left: 0;
          
         z-index: 999;
-        
+        mix-blend-mode: difference;
 
 
   }
@@ -95,29 +95,44 @@ body {
     font-family:  Helvetica, sans-serif;
     font-weight: bold;
     
+    
 }
 .right-side {
     display: flex;
+    font-size: 1.5em;
+    color: lightskyblue;
+
     
 }
 .nav-link-wrapper-insta {
     margin-right: 20px;
-    font-size: 1em;
+    font-family:  Helvetica, sans-serif;
+    font-weight: bold;
+    
 }
 .nav-wrapper > .left-side > div {
     margin-left: 20px;
-    font-size: 1em;
+    font-size: 2em;
     text-transform: uppercase;
+    
+    
 }
 
 .nav-link-wrapper {
+    
+    
    
 }
 .nav-wrapper a {
     text-decoration: none;
+    color:azure;
+    text-transform: uppercase;
+    
+   
+
     
 }
 .nav-wrapper a:hover {
-    /* color: crimson; */
+    color: blue;
     border-bottom: 0px solid black;
 }
