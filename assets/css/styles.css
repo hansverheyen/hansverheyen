@@ -58,6 +58,7 @@ body {
     font-family:  Helvetica, sans-serif;
     font-weight: bold;
       color: black;
+      line-height: 1em;
   }
   .beschrijving {
       font-family: georgia, Helvetica, sans-serif;
@@ -94,7 +95,7 @@ body {
 .right-side {
     display: flex;
     font-size: 1.5em;
-    color: black;
+    color: #bc8f8f;
 
     
 }
@@ -107,23 +108,23 @@ body {
 .nav-wrapper > .left-side > div {
     margin-left: 20px;
     font-size: 1.5em;
-    text-transform: uppercase;
     
     
 }
 
-.nav-link-wrapper {
-    
-    
-   
-}
-.nav-wrapper a {
+
+.nav-link-wrapper-insta a {
     text-decoration: none;
-    color:azure;
+    color:#87cefa;
     
-   
+}
+.nav-link-wrapper a {
+    text-decoration: none;
+    color: #6F58C9
 
     
+    
+   
 }
 .nav-wrapper a:hover {
     /* color: black; */

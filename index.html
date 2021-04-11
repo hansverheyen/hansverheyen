@@ -10,7 +10,32 @@ layout: default
     <line x1="0" y1="0" x2="100%" y2="0" style="stroke:crimson;stroke-width:2px" />
     Sorry, your browser does not support inline SVG.
   </svg> -->
+  <div class="project-wrapper">
+    {% for project in site.portfolio %}
+    {% if project.class =='ssoa' %}
+    <div class="project-linkerkant">
+        <div class="title">
+            <h2>{{project.title}}</h2>
+            <p>{{project.keywords}}<p></p>
+        </div>
+        <div class="beschrijving"> 
+            <p>{{project.beschrijving}}</p>
+         
 
+        <a href ="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
+        </div> 
+    </div>
+        <div class="project-img">
+            
+            <div class="ofm">
+                <div class="pic"><img src="{{site.baseurl}}{{project.img1}}"  alt=""></div>
+                <div class="pic"><img src="{{site.baseurl}}{{project.img2}}"  alt=""></div>
+                <div class="pic"><img src="{{site.baseurl}}{{project.img3}}"  alt="">   </div>
+            </div>
+        </div>  
+        {% endif %}
+        {% endfor %}
+</div>
    
         <div class="project-wrapper">
             {% for project in site.portfolio %}
@@ -18,9 +43,10 @@ layout: default
             <div class="project-linkerkant">
                 <div class="title">
                     <h2>{{project.title}}</h2>
+                    <p>{{project.keywords}}<p></p>
                 </div>
                 <div class="beschrijving"> 
-                    <p>{{project.content}}</p>
+                    <p>{{project.beschrijving}}</p>
                  
         
                 <a href ="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
@@ -37,16 +63,42 @@ layout: default
                 {% endif %}
                 {% endfor %}
         </div>
-
+        <div class="project-wrapper">
+            {% for project in site.portfolio %}
+            {% if project.class =='wk' %}
+            <div class="project-linkerkant">
+                <div class="title">
+                    <h2>{{project.title}}</h2>
+                    <p>{{project.keywords}}<p></p>
+                </div>
+                <div class="beschrijving"> 
+                    <p>{{project.beschrijving}}</p>
+                 
+        
+                <a href ="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
+                </div> 
+            </div>
+                <div class="project-img">
+                    
+                    <div class="ofm">
+                        <div class="pic"><img src="{{site.baseurl}}{{project.img1}}"  alt=""></div>
+                        <div class="pic"><img src="{{site.baseurl}}{{project.img2}}"  alt=""></div>
+                        <div class="pic"><img src="{{site.baseurl}}{{project.img3}}"  alt="">   </div>
+                    </div>
+                </div>  
+                {% endif %}
+                {% endfor %}
+        </div>
         <div class="project-wrapper">
             {% for project in site.portfolio %}
             {% if project.class =='ofms' %}
             <div class="project-linkerkant">
                 <div class="title">
                     <h2>{{project.title}}</h2>
+                    <p>{{project.keywords}}<p></p>
                 </div>
                 <div class="beschrijving"> 
-                    <p>{{project.content}}</p>
+                    <p>{{project.beschrijving}}</p>
                  
         
                 <a href ="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
@@ -70,9 +122,11 @@ layout: default
             <div class="project-linkerkant">
                 <div class="title">
                     <h2>{{project.title}}</h2>
+                    <p>{{project.keywords}}<p>
                 </div>
                 <div class="beschrijving"> 
-                    <p>{{project.content}}</p>
+                   
+                    <p>{{project.beschrijving}}</p>
                     <a href="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
                 </div>  
         
@@ -81,8 +135,9 @@ layout: default
                 <div class="project-img">
                    
                     <div class="pbc">
-                        <div class="pic"><img src="{{site.baseurl}}{{project.img1}}"  alt=""></div>
                         <div class="pic"><img src="{{site.baseurl}}{{project.img2}}"  alt=""></div>
+                        <div class="pic"><img src="{{site.baseurl}}{{project.img1}}"  alt=""></div>
+                        
                         <div class="pic"><img src="{{site.baseurl}}{{project.img3}}"  alt="">   </div>
                     </div>
                         <div class="pic"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358061815" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture " allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
@@ -99,9 +154,10 @@ layout: default
        <div class="project-linkerkant">
            <div class="title">
                <h2>{{project.title}}</h2>
+               <p>{{project.keywords}}<p>
            </div>
            <div class="beschrijving"> 
-               <p>{{project.content}}</p>
+               <p>{{project.beschrijving}}</p>
                <a href="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
            </div>  
    
