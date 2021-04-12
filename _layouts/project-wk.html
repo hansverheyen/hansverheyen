@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<div class="project-wrapper">
+    {% for project in site.portfolio %}
+    {% if project.class =='wk' %}
+    <div class="project-linkerkant">
+        <div class="title">
+            <h2>{{page.title}}</h2>
+            <p>{{page.keywords}}<p></p>
+        </div>
+        <div class="beschrijving"> 
+            <p>{{content}}</p>
+         
+
+        </div> 
+    </div>
+        <div class="project-img">
+            
+            <div class="ofm">
+                <div class="pic"><img src="{{site.baseurl}}{{page.img9}}"  alt=""></div>
+                <div class="pic"><img src="{{site.baseurl}}{{page.img4}}"  alt=""></div>
+                <div class="pic"><img src="{{site.baseurl}}{{page.img2}}"  alt=""></div>
+                <div class="pic"><img src="{{site.baseurl}}{{page.img3}}"  alt=""></div>
+                <div class="pic"><img src="{{site.baseurl}}{{page.img5}}"  alt=""></div>
+                <div class="pic"><img src="{{site.baseurl}}{{page.img6}}"  alt=""></div>
+                <div class="pic"><img src="{{site.baseurl}}{{page.img7}}"  alt=""></div>
+                <div class="pic"><img src="{{site.baseurl}}{{page.img8}}"  alt=""></div>
+                <div class="pic"><img src="{{site.baseurl}}{{page.img9}}"  alt=""></div>
+            </div>
+        </div>  
+        {% endif %}
+        {% endfor %}
+</div>

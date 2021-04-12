@@ -1,5 +1,6 @@
 ---
 title: Ghent Art Book Fair
+layout: project
 class: gabf
 keywords: Poster, 2018
 img1: assets/img/gabf.png

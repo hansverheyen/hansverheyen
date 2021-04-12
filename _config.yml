@@ -32,6 +32,7 @@ imagesurl: /hansverheyen/img/
 collections:
     portfolio:
       output: true 
+      permalink: /portfolio/:path/
       order:
         - ofm.md
         - wildekoffie.md

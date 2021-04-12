@@ -1,12 +1,14 @@
 ---
 title: Wilde Koffie
 keywords: Brand identity, 2019
+layout: project-wk
 beschrijving: Branding for a mobile coffee bar
 class: wk
 img1:
 img2: assets/img/wk-2.jpg
 img3: assets/img/wk-1.png
 img4: assets/img/animatie2.gif
+
 
 
 ---

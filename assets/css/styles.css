@@ -120,7 +120,10 @@ body {
 }
 .nav-link-wrapper a {
     text-decoration: none;
-    color: #6F58C9
+    /* color: #6F58C9 */
+    color: black ;
+    /* text-transform: uppercase; */
+    /* letter-spacing: -0.04em; */
 
     
     
