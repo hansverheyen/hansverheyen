@@ -93,6 +93,8 @@ body {
       display: flex;
       justify-content: space-between;
       padding: 20px;
+      max-width: 100%;
+
  
        
         /* mix-blend-mode: difference; */
@@ -106,12 +108,11 @@ body {
     
     
 }
-.right-side {
+.right-side  {
     display: flex;
     font-size: 1.5em;
     color: #bc8f8f;
-    max-width: 100%;
-
+    
 
     
 }
