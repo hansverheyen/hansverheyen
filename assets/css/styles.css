@@ -15,7 +15,7 @@ body {
 .project-wrapper {
     /* background-color: red; */
     /* width: 100%; */
-    padding: 40px 20px 20px 40px;
+    padding: 40px 20px 20px 20px;
     display: flex;
     flex-wrap: wrap;
     /* grid-template-columns: 1fr 2fr; */
@@ -44,8 +44,10 @@ body {
 }
 
 .wk > * {
+    
     flex: 1 1 500px;
     padding: 0px 10px 10px 0px;
+    
 
 }
 .ofm img {
@@ -55,6 +57,7 @@ body {
 .wk img {
     /* height: 100%; */
     width: 100%;
+    
     
 }
 .pbc > * {
@@ -107,6 +110,8 @@ body {
     display: flex;
     font-size: 1.5em;
     color: #bc8f8f;
+    max-width: 100%;
+
 
     
 }
