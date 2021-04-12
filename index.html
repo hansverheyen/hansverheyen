@@ -4,12 +4,7 @@ layout: default
 
 
 
-<h2></h2>
 
-<!-- <svg height="10" width="100%">
-    <line x1="0" y1="0" x2="100%" y2="0" style="stroke:crimson;stroke-width:2px" />
-    Sorry, your browser does not support inline SVG.
-  </svg> -->
   <div class="project-wrapper">
     {% for project in site.portfolio %}
     {% if project.class =='ssoa' %}
@@ -22,21 +17,25 @@ layout: default
             <p>{{project.beschrijving}}</p>
          
 
-        <a href ="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
+        <!-- <a href ="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a> -->
         </div> 
     </div>
         <div class="project-img">
-            
-            <div class="ofm">
-                <div class="pic"><img src="{{site.baseurl}}{{project.img1}}"  alt=""></div>
-                <div class="pic"><img src="{{site.baseurl}}{{project.img2}}"  alt=""></div>
-                <div class="pic"><img src="{{site.baseurl}}{{project.img3}}"  alt="">   </div>
-            </div>
+            <a href="{{site.baseurl}}portfolio/{{project.slug}}">
+                <div class="ofm">
+                    <div class="pic"><img src="{{site.baseurl}}{{project.img1}}"  alt=""></div>
+                    <div class="pic"><img src="{{site.baseurl}}{{project.img2}}"  alt=""></div>
+                    <div class="pic"><img src="{{site.baseurl}}{{project.img3}}"  alt="">   </div>
+                </div>
+            </a>
         </div>  
         {% endif %}
         {% endfor %}
 </div>
-   
+<svg  height="10" width="100%">
+    <line class="lijn" x1="0" y1="0" x2="100%" y2="000" style="stroke:rgb(255,0,0)" />
+    Sorry, your browser does not support inline SVG.
+  </svg>
         <div class="project-wrapper">
             {% for project in site.portfolio %}
             {% if project.class =='ofm' %}
@@ -49,20 +48,24 @@ layout: default
                     <p>{{project.beschrijving}}</p>
                  
         
-                <a href ="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
                 </div> 
             </div>
                 <div class="project-img">
-                    
-                    <div class="ofm">
-                        <div class="pic"><img src="{{site.baseurl}}{{project.img1}}"  alt=""></div>
-                        <div class="pic"><img src="{{site.baseurl}}{{project.img2}}"  alt=""></div>
-                        <div class="pic"><img src="{{site.baseurl}}{{project.img3}}"  alt="">   </div>
-                    </div>
+                    <a href="{{site.baseurl}}portfolio/{{project.slug}}">
+                        <div class="ofm">
+                            <div class="pic"><img src="{{site.baseurl}}{{project.img1}}"  alt=""></div>
+                            <div class="pic"><img src="{{site.baseurl}}{{project.img2}}"  alt=""></div>
+                            <div class="pic"><img src="{{site.baseurl}}{{project.img3}}"  alt="">   </div>
+                        </div>
+                    </a>
                 </div>  
                 {% endif %}
                 {% endfor %}
         </div>
+        <svg  height="100" width="100%">
+            <line class="lijn" x1="0" y1="0" x2="100%" y2="000" style="stroke:rgb(17, 0, 255)" />
+            Sorry, your browser does not support inline SVG.
+          </svg>
         <div class="project-wrapper">
             {% for project in site.portfolio %}
             {% if project.class =='wk' %}
@@ -75,20 +78,24 @@ layout: default
                     <p>{{project.beschrijving}}</p>
                  
         
-                <a href ="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
                 </div> 
             </div>
                 <div class="project-img">
-                    
-                    <div class="ofm">
-                        <div class="pic"><img src="{{site.baseurl}}{{project.img1}}"  alt=""></div>
-                        <div class="pic"><img src="{{site.baseurl}}{{project.img2}}"  alt=""></div>
-                        <div class="pic"><img src="{{site.baseurl}}{{project.img3}}"  alt="">   </div>
-                    </div>
+                    <a href="{{site.baseurl}}portfolio/{{project.slug}}">
+                        <div class="ofm">
+                            <div class="pic"><img src="{{site.baseurl}}{{project.img1}}"  alt=""></div>
+                            <div class="pic"><img src="{{site.baseurl}}{{project.img2}}"  alt=""></div>
+                            <div class="pic"><img src="{{site.baseurl}}{{project.img3}}"  alt="">   </div>
+                        </div>
+                    </a>
                 </div>  
                 {% endif %}
                 {% endfor %}
         </div>
+        <svg  height="10" width="100%">
+            <line class="lijn" x1="0" y1="0" x2="100%" y2="000" style="stroke:#642b3e" />
+            Sorry, your browser does not support inline SVG.
+          </svg>
         <div class="project-wrapper">
             {% for project in site.portfolio %}
             {% if project.class =='ofms' %}
@@ -101,24 +108,28 @@ layout: default
                     <p>{{project.beschrijving}}</p>
                  
         
-                <a href ="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
                 </div> 
             </div>
                 <div class="project-img">
-                    
-                    <div class="ofm">
-                        <div class="pic"><img src="{{site.baseurl}}{{project.img1}}"  alt=""></div>
-                        <div class="pic"><img src="{{site.baseurl}}{{project.img2}}"  alt=""></div>
-                        <div class="pic"><img src="{{site.baseurl}}{{project.img3}}"  alt="">   </div>
-                    </div>
+                    <a href="{{site.baseurl}}portfolio/{{project.slug}}">
+                        <div class="ofm">
+                            <div class="pic"><img src="{{site.baseurl}}{{project.img1}}"  alt=""></div>
+                            <div class="pic"><img src="{{site.baseurl}}{{project.img2}}"  alt=""></div>
+                            <div class="pic"><img src="{{site.baseurl}}{{project.img3}}"  alt="">   </div>
+                        </div>
+                    </a>
                 </div>  
                 {% endif %}
                 {% endfor %}
         </div>
-
-        {% for project in site.portfolio %}
-         {% if project.class =='pbc' %}
+        <svg  height="10" width="100%">
+            <line class="lijn" x1="0" y1="0" x2="100%" y2="000" style="stroke:#2b6445" />
+            Sorry, your browser does not support inline SVG.
+          </svg>
+       
         <div class="project-wrapper">
+            {% for project in site.portfolio %}
+            {% if project.class =='pbc' %}
             <div class="project-linkerkant">
                 <div class="title">
                     <h2>{{project.title}}</h2>
@@ -127,30 +138,33 @@ layout: default
                 <div class="beschrijving"> 
                    
                     <p>{{project.beschrijving}}</p>
-                    <a href="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
                 </div>  
         
                 
             </div>
                 <div class="project-img">
-                   
-                    <div class="pbc">
-                        <div class="pic"><img src="{{site.baseurl}}{{project.img2}}"  alt=""></div>
-                        <div class="pic"><img src="{{site.baseurl}}{{project.img1}}"  alt=""></div>
-                        
-                        <div class="pic"><img src="{{site.baseurl}}{{project.img3}}"  alt="">   </div>
-                    </div>
+                    <a href="{{site.baseurl}}portfolio/{{project.slug}}">
+                        <div class="pbc">
+                            <div class="pic"><img src="{{site.baseurl}}{{project.img2}}"  alt=""></div>
+                            <div class="pic"><img src="{{site.baseurl}}{{project.img1}}"  alt=""></div>
+                            
+                            <div class="pic"><img src="{{site.baseurl}}{{project.img3}}"  alt=""></div>
+                        </div>
                         <div class="pic"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/358061815" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture " allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-                </div>  
+                    </a>
+                 </div>  
         </div>
         {% endif %}
     {% endfor %}
     </div>
-    
+    <svg  height="10" width="100%">
+        <line class="lijn" x1="0" y1="0" x2="100%" y2="000" style="stroke:#2b6445" />
+        Sorry, your browser does not support inline SVG.
+      </svg>
+  
+   <div class="project-wrapper">
     {% for project in site.portfolio %}
     {% if project.class =='pbcb' %}
-   <div class="project-wrapper">
        <div class="project-linkerkant">
            <div class="title">
                <h2>{{project.title}}</h2>
@@ -158,7 +172,6 @@ layout: default
            </div>
            <div class="beschrijving"> 
                <p>{{project.beschrijving}}</p>
-               <a href="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
            </div>  
    
            

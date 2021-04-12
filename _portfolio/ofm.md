@@ -6,7 +6,7 @@ class: ofm
 img1: assets/img/ofm-1.png
 img2: assets/img/ofm-2.png
 img3: assets/img/ofm-3.png
-beschrijving: Cover design for the CD and digital release. CGI generated imagery is contrasted with handwritten elements and rough cut-outs of band photographs.
+beschrijving: Cover design for the CD and digital release. 
 
 ---
 
