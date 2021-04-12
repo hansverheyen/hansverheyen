@@ -31,7 +31,7 @@ body {
     flex: 1 1 60%;
 }
 
-.ofm, .pbc {
+.ofm, .pbc, .wk {
     max-width: 1500px;
     display: flex;
     flex-wrap: wrap;
@@ -42,9 +42,20 @@ body {
     flex: 1 1 500px;
     padding: 0px 10px 10px 0px;
 }
+
+.wk > * {
+    flex: 1 1 500px;
+    padding: 0px 10px 10px 0px;
+
+}
 .ofm img {
     /* height: 100%; */
     width: 100%;
+}
+.wk img {
+    /* height: 100%; */
+    width: 100%;
+    
 }
 .pbc > * {
     flex: 1 1 500px;
