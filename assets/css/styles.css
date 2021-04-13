@@ -1,6 +1,6 @@
 /* Common Styles */
 body {
-    background-color:rgb(221,221,221);
+    background-color: rgb(240, 240, 240);
     margin: 0;
 }
 
@@ -12,8 +12,8 @@ body {
 
 /* Project Styles */
 .lijn {
-    stroke-width:100;
-    stroke-dasharray: 1
+    stroke-width:2;
+    stroke:black;
 }
 .project-wrapper {
     /* background-color: red; */
@@ -44,6 +44,7 @@ body {
 .ofm > * {
     flex: 1 1 500px;
     padding: 0px 10px 10px 0px;
+    
 }
 
 .wk > * {
@@ -146,10 +147,16 @@ body {
     color: black ;
     /* text-transform: uppercase; */
     /* letter-spacing: -0.04em; */
-
-    
-    
-   
+}
+.nav-link-wrapper a:hover {
+    color: blue;
+}
+.title a {
+    text-decoration: none;
+    color: black;
+}
+.title a:hover {
+    color:orangered; 
 }
 .nav-wrapper a:hover {
     /* color: black; */
