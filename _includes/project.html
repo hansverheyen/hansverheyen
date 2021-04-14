@@ -1,19 +1,33 @@
-<div class="project-linkerkant">
-    <div class="title">
-        <h2>{{project.title}}</h2>
-    </div>
-    <div class="beschrijving"> 
-        <p>{{project.content}}</p>
-    </div>  
-
-    <a href="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a>
+<div class="lijn">
+    <svg  height="10" width="100%">
+        <line class="lijn" x1="0" y1="0" x2="100%" y2="000" />
+        Sorry, your browser does not support inline SVG.
+      </svg>
 </div>
-    <div class="project-img">
-       
-    {% for image in project.image_path %}
-        <div class="{{project.class}}">
-        <img src="{{site.baseurl}}{{ image.img }}" class="{{ image.class }}" alt="{{ image.title}}"/>
+  <div class="project-wrapper">
+    {% for project in site.portfolio %}
+    {% if project.class == include.project %}
+    <div class="project-linkerkant">
+        <div class="title">
+            <h2><a href="{{site.baseurl}}portfolio/{{project.slug}}">{{project.title}}</a></h2>
+            <p>{{project.keywords}}<p></p>
         </div>
-    {% endfor %}
-    </div>  
+        <div class="beschrijving"> 
+            <p>{{project.beschrijving}}</p>
+         
+
+        <!-- <a href ="{{site.baseurl}}portfolio/{{project.slug}}">View Full Project</a> -->
+        </div> 
+    </div>
+        <div class="project-img">
+            <a href="{{site.baseurl}}portfolio/{{project.slug}}">
+                <div class="ofm">
+                    <div class="pic"><img src="{{site.baseurl}}{{project.img1}}"  alt=""></div>
+                    <div class="pic"><img src="{{site.baseurl}}{{project.img2}}"  alt=""></div>
+                    <div class="pic"><img src="{{site.baseurl}}{{project.img3}}"  alt="">   </div>
+                </div>
+            </a>
+        </div>  
+        {% endif %}
+        {% endfor %}
 </div>

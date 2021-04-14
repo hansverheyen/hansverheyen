@@ -1,6 +1,6 @@
 ---
 title: One Frame Movement
-layout: default
+layout: project
 keywords: Single cover art, 2019
 class: ofms
 img1: assets/img/ofm-s1.jpg

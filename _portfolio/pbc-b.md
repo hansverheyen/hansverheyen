@@ -1,6 +1,7 @@
 ---
 title: Profile, Bubble, Cloud
 class: pbcb
+layout: project
 keywords: video, digital animation, MA Graduate Project – St Lucas Antwerp, 2019
 img1: assets/img/pbc/pbcb-1.png
 img2: assets/img/pbc/pbcb-2.png
