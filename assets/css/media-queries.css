@@ -6,17 +6,19 @@
 
     }
     .nav-wrapper > .left-side {
-        font-size: 1.5em;
+        font-size: 1em;
+
 
     }
     .nav-wrapper > .right-side > .nav-link-wrapper-insta {
-        
+
 
     }
     .nav-wrapper > .right-side {
         height: 100%;
         align-items: center;
-        padding-bottom: 10px;
+        flex-direction: column;
+
     }
     .project-wrapper {
         padding: 10px 10px 0px 10px;
@@ -24,5 +26,13 @@
     .pic {
         padding: 0px 0px 10px 0px;
     }
-
+    .project-pagina-img {
+        padding: 10px 10px 0px 10px;
+        width: 100%;
+    }
+    .project-pagina-info {
+        width: 100%;
+        padding: 0px 10px 10px 10px;
+    }
 }
+    
