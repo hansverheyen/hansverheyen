@@ -7,6 +7,8 @@
     }
     .nav-wrapper > .left-side {
         padding-bottom: 10px;
+        font-size: 2em;
+
     }
     .nav-wrapper > .right-side > .nav-link-wrapper-insta {
         padding-bottom: 10px;
@@ -16,7 +18,7 @@
         flex-direction: column;
         height: 100%;
         align-items: center;
-        font-size: 1em;
+        font-size: 1.2em;
 
     }
 }
