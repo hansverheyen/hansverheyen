@@ -7,6 +7,7 @@ layout: default
         Sorry, your browser does not support inline SVG.
       </svg>
 </div>
+
 <div class="project-pagina-container">
     {% for project in site.portfolio %}
     {% if project.class =='wk' %}
@@ -22,26 +23,22 @@ layout: default
             </div> 
     </div>
     <div class="lijn">
-        <svg  height="10" width="100%">
-            <line class="lijn" x1="0" y1="0" x2="100%" y2="000" />
-            Sorry, your browser does not support inline SVG.
-          </svg>
-    </div>
+    <svg  height="10" width="100%">
+        <line class="lijn" x1="0" y1="0" x2="100%" y2="000" />
+        Sorry, your browser does not support inline SVG.
+      </svg>
+</div>
         <div class="project-pagina-wrapper">
             
-            <div class="project-pagina-img">
+             <div class="project-pagina-img">
                 <div class="pp-img"><img src="{{site.baseurl}}{{page.img1}}"  alt=""></div>
                 <div class="pp-img"><img src="{{site.baseurl}}{{page.img2}}"  alt=""></div>
                 <div class="pp-img"><img src="{{site.baseurl}}{{page.img3}}"  alt=""></div>
-                <div class="pp-img"><img src="{{site.baseurl}}{{page.img4}}"  alt=""></div>
-                <div class="pp-img"><img src="{{site.baseurl}}{{page.img5}}"  alt=""></div>
-                <div class="pp-img"><img src="{{site.baseurl}}{{page.img6}}"  alt=""></div>
-                <div class="pp-img"><img src="{{site.baseurl}}{{page.img7}}"  alt=""></div>
-                <div class="pp-img"><img src="{{site.baseurl}}{{page.img8}}"  alt=""></div>
-                <div class="pp-img"><img src="{{site.baseurl}}{{page.img9}}"  alt=""></div>
-                <div class="pp-img"><img src="{{site.baseurl}}{{page.img10}}"  alt=""></div>
+                
             </div>
         </div>  
         {% endif %}
         {% endfor %}
 </div>
+
+     

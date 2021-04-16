@@ -1,0 +1,18 @@
+@media (max-width: 615px) {
+    .nav-wrapper {
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+    .nav-wrapper > .left-side {
+        padding-bottom: 10px;
+    }
+    .nav-wrapper > .right-side > .nav-link-wrapper-insta {
+        padding-bottom: 10px;
+    }
+    .nav-wrapper > .right-side {
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+}
