@@ -1,11 +1,12 @@
 ---
 title: Profile, Bubble, Cloud 
 class: pbc
-layout: project
+layout: project-pbc
 keywords: video, digital animation, MA Graduate Project – St Lucas Antwerp, 2019
 img1: assets/img/pbc/pbc-1.jpg
 # img2: assets/img/pbc/pbc-4.png
 img3: assets/img/pbc/pbc-3.jpg
+img10: assets/img/pbc/profile-2.webm
 beschrijving: A 3 channel animation about distortion in the online world.
 ---
 Profile, Bubble, Cloud is a three-part animation about distortion in the online world, specifically issues surrounding the manipulation of information.
