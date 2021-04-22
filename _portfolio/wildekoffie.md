@@ -20,4 +20,4 @@ img7: assets/img/wk-3.jpg
 
 Branding for a coffee bar on a bike. The single line from the logo was extended to an identity that gives a playful overview of the coffee making process.
 
-The simple identity elements form a toolbox that allows the design to be easily extended to other uses like social media banners, animations, POS displays, shirts…
+The simple identity elements form a toolbox that allows the design to be easily applied to a range of different applications.

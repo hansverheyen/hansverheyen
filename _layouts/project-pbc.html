@@ -28,23 +28,45 @@ layout: default
         Sorry, your browser does not support inline SVG.
       </svg>
 </div>
+ <div class="videos">
+                <video width="456" height="810" muted autoplay loop>
+                    <source src="{{site.baseurl}}assets/img/pbc/profile-2.webm" type="video/webm">
+                </video>
+                <video width="456" height="810" muted autoplay loop>
+                    <source src="{{site.baseurl}}{{page.img11}}" type="video/webm">
+                </video>
+                <video width="456" height="810" muted autoplay loop>
+                    <source src="{{site.baseurl}}assets/img/pbc/bubble-2.webm" type="video/webm">
+                </video>
+                <video width="456" height="810" muted autoplay loop>
+                    <source src="{{site.baseurl}}assets/img/pbc/bubble-1.webm" type="video/webm">
+                </video>
+                <video width="456" height="810" muted autoplay loop>
+                    <source src="{{site.baseurl}}assets/img/pbc/bubble-3.webm" type="video/webm">
+                </video>
+                <video width="456" height="810" muted autoplay loop>
+                    <source src="{{site.baseurl}}assets/img/pbc/cloud-1.webm" type="video/webm">
+                </video>
+            </div>
+            <div class="vimeo"><div style="padding:56.25% 0 20px 0;position:relative;">
+                    <iframe src="https://player.vimeo.com/video/537761670" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture " allowfullscreen>
+                    </iframe>
+            </div>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+        </div>  
         <div class="project-pagina-wrapper">
             
              <div class="project-pagina-img">
+                <div class="pp-img"><img src="{{site.baseurl}}{{page.img3}}"  alt=""></div>
                 <div class="pp-img"><img src="{{site.baseurl}}{{page.img1}}"  alt=""></div>
                 <div class="pp-img"><img src="{{site.baseurl}}{{page.img2}}"  alt=""></div>
-                <div class="pp-img"><img src="{{site.baseurl}}{{page.img3}}"  alt=""></div>
-                <div class="videos">
-                    <video width="456" height="810" autoplay>  <source src="{{site.baseurl}}{{page.img10}}" type="video/webm">
-                    </video>
+                
                 </div>
                 
                 
             </div>
-        </div>  
-        <video width="456" height="810" muted autoplay controls>
-            <source src="{{site.baseurl}}assets/img/pbc/profile-2.webm" type="video/webm">
-        </video>
+           
+       
         {% endif %}
         {% endfor %}
 </div>

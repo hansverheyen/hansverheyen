@@ -11,6 +11,16 @@ body {
 
 
 /* Project Styles */
+.videos {
+    margin: auto;
+    display: block;
+    width: 1400px;
+}
+.vimeo {
+    padding-top: 50px;
+    margin: auto;
+    width: 1200px;
+}
 .lijn {
     stroke-width:2;
     stroke:black;
@@ -50,7 +60,10 @@ body {
     width: 100%;
 
 }
-
+.block {
+    width: 100px;
+    display: block;    
+}
 .project-wrapper > .project-linkerkant {
     flex: 1 1 25%;
     min-width: 35ch;
