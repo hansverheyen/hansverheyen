@@ -14,7 +14,7 @@ img8: assets/img/ssoa/ssoa-7.jpg
 img9: assets/img/ssoa/ssoa-.jpg
 img10: assets/img/ssoa/ssoa-8.jpg
 
-beschrijving: Poster series for a cancelled music event.
+beschrijving: Poster series for an outdoor music event.
 
 ---
 
